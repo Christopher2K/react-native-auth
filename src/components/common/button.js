@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 
-export const Button = ({onPress, label}) => (
+export const Button = ({ onPress, label }) => (
     <TouchableOpacity style={styles.button} onPress={() => onPress()}>
         <Text style={styles.text}>{label}</Text>
     </TouchableOpacity>
@@ -24,4 +24,3 @@ const styles = {
     }
 };
 
-export default Button;
