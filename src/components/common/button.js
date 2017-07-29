@@ -12,7 +12,9 @@ const styles = {
         flex: 1,
         borderWidth: 2,
         borderColor: '#1672fe',
-        borderRadius: 4
+        borderRadius: 4,
+        minHeight: 45,
+        justifyContent: 'center'
     },
 
     text: {
