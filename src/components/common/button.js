@@ -1,9 +1,9 @@
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 
-export const Button = ({ onPress, label }) => (
-    <TouchableOpacity style={styles.button} onPress={() => onPress()}>
-        <Text style={styles.text}>{label}</Text>
+export const Button = ({ onPress, children }) => (
+    <TouchableOpacity style={styles.button} onPress={onPress}>
+        <Text style={styles.text}>{children}</Text>
     </TouchableOpacity>
 );
 
